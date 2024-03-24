@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    /* text color & size changed to make it less aggressive on the eye */
+    font-size: 17px;
+    color: #333;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.id_pic{    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.socials{
+    height: 38px;
+    width: 38px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-weight: normal;
+    font-style: italic;
+    color: #999;
+    font-size: 18px;
+    padding: 0;
+    margin: 5px 0 10px 0;
+}
+
+.container{
+    text-align: justify;
+}
+
+.dark_mode{
+    background-color: #333;
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left : 0;
+    right:0
+}
