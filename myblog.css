@@ -5,8 +5,17 @@ body{
     /* text color & size changed to make it less aggressive on the eye */
     font-size: 17px;
     color: #333;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* Remove margin-left and margin-right for better responsiveness, use percnetages or padding */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* this only applies to large screens */
+@media only screen and (min-width: 768px) {
+    body {
+        padding-left: 200px; /* Adjust padding for larger screens */
+        padding-right: 200px; /* Adjust padding for larger screens */
+    }
 }
 
 .id_pic{    
@@ -43,14 +52,49 @@ h2 {
     text-align: justify;
 }
 
+.blockTitle {
+    font-size: 30px;
+    /* margin-bottom: 20px;
+    margin-top: 40px; */
+}
+
+
 .dark_mode{
     background-color: #333;
     color: white;
 }
 
 .footer{
-    position: fixed;
+    /* relative instead of fixed, so that it is responsive */
+    position: relative; 
     bottom: 0;
     left : 0;
-    right:0
+    right:0;
+    padding:10px;
+
+}
+
+/* CSS for contact page */
+
+
+input[type="text"], textarea {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+input[type="submit"]:hover {
+    background-color: blue;
 }

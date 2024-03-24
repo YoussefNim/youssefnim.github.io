@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myblog.css">
     <title>Contact Page - YoussefNim</title>
 </head>
 <body>
 
-    Just fill the form, bro !
-    
+    <div class="contact_form">
+        <h1>Contact Me</h1>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+
+        <div><a href="index.html">Back to Home Page</a></div>
+
+
+    <div class="footer">-- made by <span id="author">@youssefnim</span> --</div>
 </body>
+<script type="text/javascript" src="myblog.js" > </script>
+
 </html>
