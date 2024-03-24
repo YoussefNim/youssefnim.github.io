@@ -78,7 +78,7 @@ h2 {
 
 
 input[type="text"], textarea {
-    width: calc(100% - 30px);
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;

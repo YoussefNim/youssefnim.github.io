@@ -27,16 +27,16 @@
     <div class="contact_form">
         <!-- <h1>Contact Me</h1> -->
         <form action="submit_form.php" method="POST">
-            <label for="name">Your name:</label>
-            <input type="text" id="name" name="name" required>
+            <div><label for="name">Your name:</label></div>
+            <div><input type="text" id="name" name="name" autocomplete="name" required></div>  
+            
+            <div><label for="email">Your email:</label></div>
+            <div><input type="text" id="email" name="email" autocomplete="email" required></div>
 
-            <label for="email">Your email:</label>
-            <input type="text" id="email" name="email" required>
+            <div><label for="message">Your message:</label></div>
+            </div><textarea id="message" name="message" rows="4" required></textarea></div>
 
-            <label for="message">Your message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <input type="submit" value="Submit">
+            <div><input type="submit" value="Submit"></div>
 
         <div><a href="index.html">Back to Home Page</a></div>
 
