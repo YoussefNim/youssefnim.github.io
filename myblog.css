@@ -5,7 +5,7 @@ body{
     /* text color & size changed to make it less aggressive on the eye */
     font-size: 17px;
     color: #333;
-    /* Remove margin-left and margin-right for better responsiveness, use percnetages or padding */
+    /* Remove margin-left and margin-right for better responsiveness, use percentages or padding */
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -29,9 +29,29 @@ body{
     height: 38px;
     width: 38px;
     margin-top: 20px;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 50%;
 }
+
+nav{
+    margin-top: 10px;
+}
+
+nav a {
+    padding: 5px;
+}
+
+
+.dark_mode{
+    background-color: #333;
+    color: white;
+}
+
+body.dark_mode nav a {
+/* White color for dark mode */
+    color: white; 
+}
+
 
 h1 {
     font-size: 30px;
@@ -52,18 +72,6 @@ h2 {
     text-align: justify;
 }
 
-.blockTitle {
-    font-size: 30px;
-    /* margin-bottom: 20px;
-    margin-top: 40px; */
-}
-
-
-.dark_mode{
-    background-color: #333;
-    color: white;
-}
-
 .footer{
     /* relative instead of fixed, so that it is responsive */
     position: relative; 
@@ -75,26 +83,26 @@ h2 {
 }
 
 /* CSS for contact page */
-
-
 input[type="text"], textarea {
-    width: 55%;
+    width: 75%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 input[type="submit"] {
     background-color: blue;
     color: white;
     padding: 15px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 30px;
 }
+
 input[type="submit"]:hover {
     background-color: blue;
 }

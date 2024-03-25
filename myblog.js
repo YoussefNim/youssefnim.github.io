@@ -1,14 +1,10 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 const toggle_mode_btn = document.getElementById("toggle_mode_btn")
-// const scl_logos = document.querySelector('socials')
 
 const storedTheme = localStorage.getItem('theme')
 
-
 // If a theme preference is stored, apply it to the body classList
-
-
 if (storedTheme){
     document.body.classList.add(storedTheme)
 }
@@ -25,6 +21,22 @@ if (toggle_mode_btn){
 }
 
 
+// Get the current page pathname
+var currentPagePath = window.location.pathname;
+
+// Select all navigation links
+var navLinks = document.querySelectorAll('nav a');
+
+// Loop through each navigation link
+navLinks.forEach(function(link) {
+    // Check if the link's href attribute matches the current page pathname
+    if (link.pathname === currentPagePath) {
+        // style background of the active link
+        link.style.color = 'black'
+        link.style.background = '#D6D1D0'
+        link.style.fontWeight = 'bold'
+    }
+});
 
 
 })
