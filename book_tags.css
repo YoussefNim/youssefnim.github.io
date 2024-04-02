@@ -1,0 +1,25 @@
+.tags a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+    /* padding: 4px 8px; */
+}
+
+.tags a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tags a:active {
+    font-weight: bold;
+    background-color: lightgrey; /* Highlight selected tag */
+}
+
+#book-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+#book-list li {
+    margin-bottom: 5px; /* Add margin between list items */
+}
