@@ -26,18 +26,18 @@ body{
 }
 
 .socials{
-    height: 38px;
-    width: 38px;
-    margin-top: 20px;
-    background-color: whitesmoke;
+    height: 32px;
+    width: 32px;
+    background-color: white;
     border-radius: 50%;
 }
 
 nav{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 nav a {
+    font-size: 20px; 
     padding: 5px;
 }
 
@@ -55,11 +55,13 @@ body.dark_mode nav a {
 
 h1 {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: bold;
     padding: 0;
     margin-bottom: 20px;
 }
-h2 {
+
+
+.slogan {
     font-weight: normal;
     font-style: italic;
     color: #999;
@@ -68,8 +70,30 @@ h2 {
     margin: 5px 0 10px 0;
 }
 
-.container{
+/* .container{ */
+main{
     text-align: justify;
+}
+
+.share_buttons{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share_buttons > * {
+    margin-right: 20px;
+}
+
+.whatsapp-button{
+    color: green;
+    background-color: white ; 
+    font-weight: bold;
+    border-radius: 12%;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .footer{
@@ -103,6 +127,3 @@ input[type="submit"] {
     margin-bottom: 30px;
 }
 
-input[type="submit"]:hover {
-    background-color: blue;
-}

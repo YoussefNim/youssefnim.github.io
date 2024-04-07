@@ -32,11 +32,10 @@ navLinks.forEach(function(link) {
     // Check if the link's href attribute matches the current page pathname
     if (link.pathname === currentPagePath) {
         // style background of the active link
-        link.style.color = 'black'
-        link.style.background = '#D6D1D0'
-        link.style.fontWeight = 'bold'
+        link.style.fontWeight = 'bolder'
     }
 });
+
 
 
 })
