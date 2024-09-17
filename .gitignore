@@ -1,2 +1,2 @@
-"from_goodreads_to_html.ipynb"
-/templates
+from_goodreads_to_html.ipynb
+article_template.html
