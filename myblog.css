@@ -126,3 +126,18 @@ input[type="submit"] {
     margin-bottom: 30px;
 }
 
+.highlighted-text {
+    position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+    padding-left: 20px; /* Space for the vertical line */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.highlighted-text::before {
+    content: ''; /* No text content */
+    position: absolute; /* Position absolutely within the highlighted-text */
+    left: 0; /* Align to the left */
+    top: 0; /* Start from the top */
+    bottom: 0; /* Extend to the bottom */
+    width: 3px; /* Width of the vertical line */
+    background-color: blue; /* Color of the vertical line */
+}
