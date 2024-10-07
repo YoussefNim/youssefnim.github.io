@@ -73,15 +73,18 @@ navLinks.forEach(function(link) {
              const recommendationDiv = document.getElementById("recommendation");
 
              if (recommendations.length > 0) {
+                console.log("recommendations", recommendations)
                 // Set the font size for the recommendations
                 recommendationDiv.style.fontSize = '22px'; // Set the desired font size
                 recommendationDiv.innerHTML = recommendations.map(article => {
                     let articleHref = article.getAttribute('href');
+                    console.log("article href before any chge", articleHref)
                     // return `<div><a href="${articleHref}">${article.textContent}</a></div>`;                     
                      // Ensure the article's URL is correctly formed
                      if (articleHref.startsWith('2024/')) {
                          // If the href already starts with 2024, remove '2024/' from the start of the URL
                         articleHref = articleHref.replace("2024/", '');
+                        console.log("after chge", articleHref)
                         return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
                      } else {
                          // If the href does not start with 2024, prepend it correctly
