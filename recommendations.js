@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
      const metaTags = metaTagsElement.getAttribute('content').split(',').map(tag => tag.trim().toLowerCase());
 
      // Use relative path to go up one directory level from '2024/'
-     const articleIndexURL = 'index.html'; // Adjusted to the correct path
+     const articleIndexURL = '../index.html'; // Adjusted to the correct path
 
      // Fetch the article index file
      fetch(articleIndexURL)
