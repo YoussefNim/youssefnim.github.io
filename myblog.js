@@ -77,16 +77,16 @@ navLinks.forEach(function(link) {
                 recommendationDiv.style.fontSize = '22px'; // Set the desired font size
                  recommendationDiv.innerHTML = recommendations.map(article => {
                      let articleHref = article.getAttribute('href');
-                     
-                     // Ensure the article's URL is correctly formed
-                     if (articleHref.startsWith('2024/')) {
-                         // If the href already starts with 2024, remove '2024/' from the start of the URL
-                        articleHref = articleHref.replace("2024/", '');
-                        return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
-                     } else {
-                         // If the href does not start with 2024, prepend it correctly
-                         return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
-                     }
+                     return `<div><a href="${articleHref}">${article.textContent}</a></div>`;                     
+                    //  // Ensure the article's URL is correctly formed
+                    //  if (articleHref.startsWith('2024/')) {
+                    //      // If the href already starts with 2024, remove '2024/' from the start of the URL
+                    //     articleHref = articleHref.replace("2024/", '');
+                    //     return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
+                    //  } else {
+                    //      // If the href does not start with 2024, prepend it correctly
+                    //      return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
+                    //  }
                  }).join('');
              } else {
                  recommendationDiv.innerHTML = "No similar articles found.";
