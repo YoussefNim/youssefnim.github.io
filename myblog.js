@@ -36,6 +36,48 @@ navLinks.forEach(function(link) {
     }
 });
 
+ // 3. Recommend Similar Articles
+    // Get the tags from the current article's <meta name="keywords">
+    const metaTagsElement = document.querySelector('meta[name="keywords"]');
+    if (metaTagsElement) {
+        const metaTags = metaTagsElement.getAttribute('content').split(',');
+
+        // URL of the article index
+        const articleIndexURL = 'index.html'; // Make sure this path is correct.
+
+        // Fetch the article index file
+        fetch(articleIndexURL)
+            .then(response => response.text())
+            .then(data => {
+                // Create a temporary DOM element to parse the article index HTML
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(data, 'text/html');
+
+                // Get all articles from the index
+                const articles = doc.querySelectorAll('#article-list li');
+
+                // Filter articles that share at least one tag with the current article
+                const recommendations = Array.from(articles).filter(article => {
+                    const articleTags = article.getAttribute('data-tags').split(',').map(tag => tag.trim());
+                    return articleTags.some(tag => metaTags.includes(tag));
+                });
+
+                // Display the recommended articles
+                const recommendationDiv = document.getElementById("recommendation");
+
+                if (recommendations.length > 0) {
+                    recommendationDiv.innerHTML = recommendations.map(article => 
+                        article.innerHTML
+                    ).join(', ');
+                } else {
+                    recommendationDiv.innerHTML = "No similar articles found.";
+                }
+            })
+            .catch(error => {
+                console.error("Error loading article index:", error);
+                document.getElementById("recommendation").innerHTML = "Error loading recommendations.";
+            });
+    }
 
 
 })
