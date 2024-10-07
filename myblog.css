@@ -141,3 +141,7 @@ input[type="submit"] {
     width: 3px; /* Width of the vertical line */
     background-color: blue; /* Color of the vertical line */
 }
+
+.recommended_further_reading{
+    background-color: #F5F5F5;
+}
