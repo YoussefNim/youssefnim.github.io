@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
              // Get the current article's URL to prevent self-recommendation
              const currentArticleUrl = window.location.href;
 
+            // Extract the current article's year from its URL
+            // const currentYear = currentArticleUrl.split('/').slice(-2, -1)[0]; // Assumes URL is structured like '.../2024/article-title.html'
+
              // Filter articles that share at least one tag with the current article
              const recommendations = Array.from(articles).filter(article => {
                  const articleTags = article.getAttribute('data-tags').split(',').map(tag => tag.trim().toLowerCase());
@@ -46,17 +49,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 recommendationDiv.innerHTML = recommendations.map(article => {
                     let articleHref = article.getAttribute('href');
                     console.log("article href before any chge", articleHref)
-                    // return `<div><a href="${articleHref}">${article.textContent}</a></div>`;                     
+                    return `<div><a href="${articleHref}">${article.textContent}</a></div>`;                     
                     // Ensure the article's URL is correctly formed
-                     if (articleHref.startsWith('2024/')) {
-                         // If the href already starts with 2024, remove '2024/' from the start of the URL
-                        articleHref = articleHref.replace("2024/", '');
-                        console.log("after chge", articleHref)
-                        return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
-                     } else {
-                         // If the href does not start with 2024, prepend it correctly
-                         return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
-                     }
+                    //  if (articleHref.startsWith('2024/')) {
+                    //      // If the href already starts with 2024, remove '2024/' from the start of the URL
+                    //     articleHref = articleHref.replace("2024/", '');
+                    //     console.log("after chge", articleHref)
+                    //     return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
+                    //  } else {
+                    //      // If the href does not start with 2024, prepend it correctly
+                    //      return `<div><a href="${articleHref}">${article.textContent}</a></div>`;
+                    //  }
                  }).join('');
              } else {
                  recommendationDiv.innerHTML = "No similar articles found.";
