@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function() {
 
 
@@ -41,18 +39,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
              // Display the recommended articles
              const recommendationDiv = document.getElementById("recommendation");
-
+            
              if (recommendations.length > 0) {
                 console.log("recommendations", recommendations)
                 // Set the font size for the recommendations
                 recommendationDiv.style.fontSize = '22px'; // Set the desired font size
+
                 recommendationDiv.innerHTML = recommendations.map(article => {
                     let articleHref = article.getAttribute('href');
                     console.log("article href before any chge", articleHref)
-                    return `<div>• <a href="../${articleHref}">${article.textContent}</a></div></div><br>`;                   
+                    return `<div>• <a href="../${articleHref}">${article.textContent}</a></div>`;
                  }).join('');
              } else {
-                 recommendationDiv.innerHTML = "No similar articles found.";
+                recommendationDiv.innerHTML = `No similar articles found. <a href="../index.html">Check the index</a>`;
              }
          })
          .catch(error => {
