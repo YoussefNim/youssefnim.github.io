@@ -18,9 +18,11 @@ body{
     }
 }
 
-img {
+main img {
     display: block;
     margin: auto;
+    width: 400px;
+    height: auto;
     max-width: 100%;
 }
 
@@ -53,11 +55,19 @@ nav a {
     color: white;
 }
 
-body.dark_mode nav a {
+/* body.dark_mode nav a { */
 /* White color for dark mode */
-    color: white; 
+    /* color: white; 
+} */
+
+/* Link colors for dark mode */
+body.dark_mode a {
+    color: #66b2ff; /* A light color for unvisited links in dark mode */
 }
 
+body.dark_mode a:visited {
+    color: #3399ff; /* A light color for visited links in dark mode */
+}
 
 h1 {
     font-size: 30px;
@@ -151,3 +161,8 @@ input[type="submit"] {
 .recommended_further_reading{
     background-color: #F5F5F5;
 }
+
+.dark_mode .recommended_further_reading{
+    /* need a space btween the 2 or else won't work */
+    color: black;
+} 
