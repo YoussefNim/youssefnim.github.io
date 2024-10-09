@@ -1,7 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 const toggle_mode_btn = document.getElementById("toggle_mode_btn")
-
 const storedTheme = localStorage.getItem('theme')
 
 // If a theme preference is stored, apply it to the body classList
