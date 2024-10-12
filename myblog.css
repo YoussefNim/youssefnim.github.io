@@ -110,6 +110,11 @@ main{
     color: #3399ff;
 }
 
+body.dark_mode .social-icons a {
+    background-color: transparent; /* Dark background for icons */
+    color: white;
+}
+
 /* CSS for contact page */
 input[type="text"], textarea {
     width: 75%;
@@ -181,7 +186,7 @@ input[type="submit"] {
   .facebook {
     background-color: #3b5998;
   }
-
+  
   .twitter {
     background-color: #55acee;
   }
