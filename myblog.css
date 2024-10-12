@@ -1,16 +1,13 @@
 body{
     text-align: center;
     font-family: sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     /* text color & size changed to make it less aggressive on the eye */
-    font-size: 17px;
+    font-size: 18px;
     color: #333;
     /* Remove margin-left and margin-right for better responsiveness, use percentages or padding */
     padding-left: 10px;
     padding-right: 10px;
-    /* background-color: white;
-    color: black;
-    transition: background-color 0.1s ease, color 0.1s ease; */
 }
 
 /* this only applies to large screens */
@@ -50,7 +47,10 @@ main img {
 }
 
 nav{
-    margin-top: 20px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    /* margin-top: 20px; */
 }
 
 nav a {
@@ -64,10 +64,6 @@ nav a {
     color: white;
 }
 
-/* body.dark_mode nav a { */
-/* White color for dark mode */
-    /* color: white; 
-} */
 
 /* Link colors for dark mode */
 body.dark_mode a {
@@ -82,7 +78,7 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -99,37 +95,19 @@ main{
     text-align: justify;
 }
 
-.share_buttons{
-    margin-top: 30px;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.share_buttons > * {
-    margin-right: 20px;
-}
-
-.whatsapp-button{
-    color: green;
-    background-color: white ; 
-    font-weight: bold;
-    border-radius: 12%;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
 .footer{
     /* relative instead of fixed, so that it is responsive */
+    font-size: 15px;
     position: relative; 
     bottom: 0;
     left : 0;
     right:0;
     margin-top: 5px;
-    color: white;
-    background-color: blue;
+    color: blue;
+}
 
+.dark_mode .footer {
+    color: #3399ff;
 }
 
 /* CSS for contact page */
@@ -178,3 +156,51 @@ input[type="submit"] {
     /* need a space btween the 2 or else won't work */
     color: black;
 } 
+
+.social-icons {
+    display: block;
+    gap: 5px; /* Small space between buttons */
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;  /* Smaller padding for the buttons */
+    display: inline-block;
+    font-size: 14px;  /* Smaller font size for the icons */
+    border-radius: 4px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Button colors for each platform */
+  .facebook {
+    background-color: #3b5998;
+  }
+
+  .twitter {
+    background-color: #55acee;
+  }
+
+  .whatsapp {
+    background-color: #25D366;
+  }
+
+  .linkedin {
+    background-color: #0077b5;
+  }
+
+  /* Hover effect for buttons */
+  .social-icons a:hover {
+    opacity: 0.85;
+  }
+
+  /* Ensuring the icons are centered inside the buttons */
+  .social-icons i {
+    margin-right: 0; /* No space between icon and text, as there's no text */
+    font-size: 16px; /* Adjust icon size */
+  }
