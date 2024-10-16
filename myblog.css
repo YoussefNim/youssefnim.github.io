@@ -21,6 +21,7 @@ body{
 main img {
     display: block;
     margin: auto;
+    margin-bottom: 15px;
     width: 400px;
     height: auto;
     max-width: 100%;
