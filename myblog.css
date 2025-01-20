@@ -34,12 +34,15 @@ main img {
   margin-top: 10px;
 }
 
+#toggle_mode_btn {
+  display: none;
+}
+
 .socials {
   height: 32px;
   width: 32px;
   background-color: white;
   border-radius: 50%;
-  visibility: hidden;
 }
 
 #socials {
