@@ -1,194 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1">
-    <meta name="description" content="notes about business, technology and data">
-    <meta name="keywords" content="ai, fr, podcast, future of work">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="googlebot"
+      content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+    />
+    <meta
+      name="description"
+      content="notes about business, technology and data"
+    />
+    <meta name="keywords" content="ai, fr, podcast, future of work" />
 
     <!-- Open Graph meta tags needed for the social buttons to automatically grab some info before sharing -->
-    <meta property="og:title" content="intro to AI (darija french english) using NotebookLM">
-    <meta property="og:url" content="youssefnim.github.io/2024/podcast_space_ai.html">
-    <meta property="og:description" content="intro to AI (darija french english) using NotebookLM">
-    <meta property="og:image" content="youssefnim.github.io/assets/youssefnim_img.ico">
-    <meta property="og:type" content="article">
-    <meta property="article:author" content="Youssef Nim">
+    <meta
+      property="og:title"
+      content="intro to AI (darija french english) using NotebookLM"
+    />
+    <meta
+      property="og:url"
+      content="youssefnim.github.io/2024/podcast_space_ai.html"
+    />
+    <meta
+      property="og:description"
+      content="intro to AI (darija french english) using NotebookLM"
+    />
+    <meta
+      property="og:image"
+      content="youssefnim.github.io/assets/youssefnim_img.ico"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Youssef Nim" />
 
-    <link rel="stylesheet" href="../myblog.css">
-     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../myblog.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
-    <link rel="icon" href="../assets\youssefnim_img.ico" type="image/x-icon">
-        <!-- MailerLite Universal script -->
-        <script>
-            (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-            .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-            n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-            (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-            ml('account', '1134204');
-        </script>
-        <!-- End MailerLite Universal -->
-    
-    <title> Podcast Twitter Space - Artificial Intelligence AI (NotebookLM)</title>
-</head>
-<body>
+    <link rel="icon" href="../assets\youssefnim_img.ico" type="image/x-icon" />
+    <!-- MailerLite Universal script -->
+    <script>
+      (function (w, d, e, u, f, l, n) {
+        (w[f] =
+          w[f] ||
+          function () {
+            (w[f].q = w[f].q || []).push(arguments);
+          }),
+          (l = d.createElement(e)),
+          (l.async = 1),
+          (l.src = u),
+          (n = d.getElementsByTagName(e)[0]),
+          n.parentNode.insertBefore(l, n);
+      })(
+        window,
+        document,
+        "script",
+        "https://assets.mailerlite.com/js/universal.js",
+        "ml"
+      );
+      ml("account", "1134204");
+    </script>
+    <!-- End MailerLite Universal -->
+
+    <title>
+      Podcast Twitter Space - Artificial Intelligence AI (NotebookLM)
+    </title>
+  </head>
+  <body>
     <div id="intro">
-        <a href="../index.html"><img src="../assets\youssefnim_img.ico" class="id_pic"></a>
-        <p class="slogan">In God we trust. <br> All others must bring data.</p>
+      <a href="../index.html"
+        ><img src="../assets\youssefnim_img.ico" class="id_pic"
+      /></a>
+      <p class="slogan">
+        In God we trust. <br />
+        All others must bring data.
+      </p>
     </div>
-    
-        
-        <div id="socials">
-            <a href="https://www.twitter.com/youssefnim" target="_blank"> <img src="../assets\ctwitter.svg" class="socials" alt="twtr link"></a>
-            <a href="https://www.github.com/youssefnim" target="_blank"> <img src="../assets\cgithub.svg" class="socials" alt="gthb link"></a>
-            <img id='toggle_mode_btn' src="../assets\dark_light_mode.png" class="socials" alt="dark/light mode">
-        </div>
-        
-        <div><nav>
-            <a href="../index.html">Posts</a>
-            <a href="../books-reading-list.html">Reading list</a>
-            <a href="../coding-projects.html">Mini Apps</a>
-            <a href="../about.html">About</a>
-        </nav></div>
-        
-        <hr>
-    
-    
-        <h1> Intro to Artificial Intelligence (using NotebookLM)</h1>
-        <div><i>(en darija, français & english)</i></div>
-<main>
 
-I used NotebookLM for the first time. <br>
-I started by uploading the audio file of our full conversation (which you can listen to here) :
+    <div id="socials">
+      <a href="https://www.twitter.com/youssefnim" target="_blank">
+        <img src="../assets\ctwitter.svg" class="socials" alt="twtr link"
+      /></a>
+      <a href="https://www.github.com/youssefnim" target="_blank">
+        <img src="../assets\cgithub.svg" class="socials" alt="gthb link"
+      /></a>
+      <img
+        id="toggle_mode_btn"
+        src="../assets\dark_light_mode.png"
+        class="socials"
+        alt="dark/light mode"
+      />
+    </div>
 
-<p><center>
-<iframe
-    frameborder="0"
-    width="350"
-    height="50"
-    src="https://drive.google.com/file/d/152TI_OsWVPR8lvu7giElW7m-gS0AXwXx/preview">
-  </iframe>
-</center></p>
+    <div>
+      <nav>
+        <a href="../index.html">Posts</a>
+        <a href="../books-reading-list.html">Reading list</a>
+        <a href="../coding-projects.html">Mini Apps</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
 
-<p>And NotebookLM generated 2 pieces of content.</p>
-<h2> First, a 12-minute audio conversation between 2 AI agents.</h2> 
-Note : the original conversation was in a mix of French, Moroccan Arabic (darija) and English; which means NotebookLM transcribed and translated it before generating this output. 
-It's pretty amazing & useful since most speech-to-text tools I've tested struggle when the podcast speakers use multiple languages at once. <br>
-<p>Here is the AI conversation :) :</p>
-<p><center>
-    <iframe
-        frameborder="0"
-        width="350"
-        height="50"
-        src="https://drive.google.com/file/d/17Owg5uAJivpLS1XdeP1gs_awGeNqoiQf/preview">
-      </iframe>
-    </center></p>
-    
+    <hr />
 
-<h2>Then, NotebookLM generated the following summary in text format :</h2>
+    <h1>Intro to Artificial Intelligence (using NotebookLM)</h1>
+    <div><i>(en darija, français & english)</i></div>
+    <main>
+      I used NotebookLM for the first time. <br />
+      I started by uploading the audio file of our full conversation (which you
+      can listen to here) :
 
-<div class="highlighted-text">
-<p><b>"Briefing Doc: The Future of AI and Its Impact on Society</b></p>
+      <p>
+        <center>
+          <iframe
+            frameborder="0"
+            width="350"
+            height="50"
+            src="https://drive.google.com/file/d/152TI_OsWVPR8lvu7giElW7m-gS0AXwXx/preview"
+          >
+          </iframe>
+        </center>
+      </p>
 
-<p>This document summarizes the key themes and insights from a transcribed discussion (originally in French and Arabic) about artificial intelligence (AI). The conversation primarily revolves around the following topics:</p>
+      <p>And NotebookLM generated 2 pieces of content.</p>
+      <h2>First, a 12-minute audio conversation between 2 AI agents.</h2>
+      Note : the original conversation was in a mix of French, Moroccan Arabic
+      (darija) and English; which means NotebookLM transcribed and translated it
+      before generating this output. It's pretty amazing & useful since most
+      speech-to-text tools I've tested struggle when the podcast speakers use
+      multiple languages at once. <br />
+      <p>Here is the AI conversation :) :</p>
+      <p>
+        <center>
+          <iframe
+            frameborder="0"
+            width="350"
+            height="50"
+            src="https://drive.google.com/file/d/17Owg5uAJivpLS1XdeP1gs_awGeNqoiQf/preview"
+          >
+          </iframe>
+        </center>
+      </p>
 
-<p><b>1. Understanding AI and Machine Learning:</b></p>
+      <h2>Then, NotebookLM generated the following summary in text format :</h2>
 
-<ul>
-    <li>Participants clarify basic AI concepts, such as machine learning, deep learning, and algorithms.</li>
-    <li>They emphasize that AI, at its core, is essentially complex algorithms processing and transforming information.</li>
-    <li>The discussion delves into the "black box" problem of AI, where the inner workings and decision-making processes of complex models can be opaque. This raises concerns about control, bias, and potential unintended consequences.</li>
-</ul>
+      <div class="highlighted-text">
+        <p><b>"Briefing Doc: The Future of AI and Its Impact on Society</b></p>
 
-<p><b>Quote:</b> "All this that we call artificial intelligence, isn't it just algorithms? Isn't algorithm the equivalent of a system that transforms information?"</p>
+        <p>
+          This document summarizes the key themes and insights from a
+          transcribed discussion (originally in French and Arabic) about
+          artificial intelligence (AI). The conversation primarily revolves
+          around the following topics:
+        </p>
 
-<p><b>2. Drivers of AI Advancement:</b></p>
+        <p><b>1. Understanding AI and Machine Learning:</b></p>
 
-<ul>
-    <li>The abundance of data, particularly from social media, is identified as a significant catalyst for recent AI progress.</li>
-    <li>Advances in computing power, particularly GPUs, have also played a crucial role in enabling the development of more complex models.</li>
-</ul>
+        <ul>
+          <li>
+            Participants clarify basic AI concepts, such as machine learning,
+            deep learning, and algorithms.
+          </li>
+          <li>
+            They emphasize that AI, at its core, is essentially complex
+            algorithms processing and transforming information.
+          </li>
+          <li>
+            The discussion delves into the "black box" problem of AI, where the
+            inner workings and decision-making processes of complex models can
+            be opaque. This raises concerns about control, bias, and potential
+            unintended consequences.
+          </li>
+        </ul>
 
-<p><b>Quote:</b> "The social media explosion meant that data was everywhere. We no longer had a problem with data. The data was already there. We just had to develop algorithms."</p>
+        <p>
+          <b>Quote:</b> "All this that we call artificial intelligence, isn't it
+          just algorithms? Isn't algorithm the equivalent of a system that
+          transforms information?"
+        </p>
 
-<p><b>3. The Impact of AI on Jobs and Skills:</b></p>
+        <p><b>2. Drivers of AI Advancement:</b></p>
 
-<ul>
-    <li>The discussion acknowledges the significant potential for AI to automate existing jobs, particularly in sectors with repetitive tasks and lower wages.</li>
-    <li>Participants emphasize the need for individuals to adapt and develop new skills to remain relevant in the evolving job market.</li>
-    <li>The importance of continuous learning and upskilling throughout one's career is highlighted.</li>
-    <li>The concept of Universal Basic Income (UBI) is briefly discussed as a potential solution to address potential mass unemployment.</li>
-</ul>
+        <ul>
+          <li>
+            The abundance of data, particularly from social media, is identified
+            as a significant catalyst for recent AI progress.
+          </li>
+          <li>
+            Advances in computing power, particularly GPUs, have also played a
+            crucial role in enabling the development of more complex models.
+          </li>
+        </ul>
 
-<p><b>Quote:</b> "I think that artificial intelligence and automation will impact many more sectors. It's not just translators, it's also architects, journalists...those who just do rewriting or low-value-added articles are easily replaceable."</p>
+        <p>
+          <b>Quote:</b> "The social media explosion meant that data was
+          everywhere. We no longer had a problem with data. The data was already
+          there. We just had to develop algorithms."
+        </p>
 
-<p><b>4. Addressing the Challenges of AI:</b></p>
+        <p><b>3. The Impact of AI on Jobs and Skills:</b></p>
 
-<ul>
-    <li>Concerns about AI bias and the potential for it to perpetuate existing societal inequalities are raised.</li>
-    <li>The importance of developing AI models that are culturally sensitive and representative of diverse perspectives is stressed.</li>
-    <li>Participants debate the ethics of AI development, particularly with the "black box" problem, and the need for responsible development and deployment.</li>
-</ul>
+        <ul>
+          <li>
+            The discussion acknowledges the significant potential for AI to
+            automate existing jobs, particularly in sectors with repetitive
+            tasks and lower wages.
+          </li>
+          <li>
+            Participants emphasize the need for individuals to adapt and develop
+            new skills to remain relevant in the evolving job market.
+          </li>
+          <li>
+            The importance of continuous learning and upskilling throughout
+            one's career is highlighted.
+          </li>
+          <li>
+            The concept of Universal Basic Income (UBI) is briefly discussed as
+            a potential solution to address potential mass unemployment.
+          </li>
+        </ul>
 
-<p><b>Quote:</b> "The problem is that all this data comes mainly from the Western world and therefore from a Western worldview. So ultimately, will AI not also impose a Western worldview on us, particularly that of the United States?"</p>
+        <p>
+          <b>Quote:</b> "I think that artificial intelligence and automation
+          will impact many more sectors. It's not just translators, it's also
+          architects, journalists...those who just do rewriting or
+          low-value-added articles are easily replaceable."
+        </p>
 
-<p><b>5. The Future Potential of AI:</b></p>
+        <p><b>4. Addressing the Challenges of AI:</b></p>
 
-<ul>
-    <li>Participants envision a future where AI becomes deeply integrated into various aspects of life, transforming industries and creating new possibilities.</li>
-    <li>They highlight the potential for AI to address global challenges such as climate change and resource scarcity.</li>
-    <li>The need for proactive societal adaptation and the importance of fostering a positive and informed discourse about AI are emphasized.</li>
-</ul>
+        <ul>
+          <li>
+            Concerns about AI bias and the potential for it to perpetuate
+            existing societal inequalities are raised.
+          </li>
+          <li>
+            The importance of developing AI models that are culturally sensitive
+            and representative of diverse perspectives is stressed.
+          </li>
+          <li>
+            Participants debate the ethics of AI development, particularly with
+            the "black box" problem, and the need for responsible development
+            and deployment.
+          </li>
+        </ul>
 
-<p><b>Quote:</b> "The goal is to provide a basic income so that people no longer have to worry about food, shelter, and healthcare. They can pursue their passions and contribute to society in a way that is meaningful to them."</p>
+        <p>
+          <b>Quote:</b> "The problem is that all this data comes mainly from the
+          Western world and therefore from a Western worldview. So ultimately,
+          will AI not also impose a Western worldview on us, particularly that
+          of the United States?"
+        </p>
 
-<p>Overall, the conversation paints a complex picture of AI as a powerful tool with the potential to both disrupt and improve society. It emphasizes the need for thoughtful consideration of its implications and the importance of proactive adaptation on the part of individuals, businesses, and governments".</p>
-</div>
-<br>
-<br>
-<p>
-    It is truly mind-blowing. You can upload any type of file and explore it using this tool : <a href="https://notebooklm.google.com/">try it</a> !
-</p>
-<div class="ml-embedded" data-form="U62nie"></div>
-</main>        
+        <p><b>5. The Future Potential of AI:</b></p>
 
+        <ul>
+          <li>
+            Participants envision a future where AI becomes deeply integrated
+            into various aspects of life, transforming industries and creating
+            new possibilities.
+          </li>
+          <li>
+            They highlight the potential for AI to address global challenges
+            such as climate change and resource scarcity.
+          </li>
+          <li>
+            The need for proactive societal adaptation and the importance of
+            fostering a positive and informed discourse about AI are emphasized.
+          </li>
+        </ul>
 
-<div class="social-icons">
-    <a href="https://www.facebook.com/sharer.php" class="facebook" target="_blank">
-      <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter" data-via="YoussefNim" target="_blank">
-      <i class="fab fa-twitter"></i>
-    </a>
-    <a href="https://api.whatsapp.com/send?text=" class="whatsapp" target="_blank">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=" class="linkedin" target="_blank">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-  </div>
+        <p>
+          <b>Quote:</b> "The goal is to provide a basic income so that people no
+          longer have to worry about food, shelter, and healthcare. They can
+          pursue their passions and contribute to society in a way that is
+          meaningful to them."
+        </p>
 
-<div class="recommended_further_reading">
-    <strong> Read More </strong> : <span id="recommendation"> loading </span>
-</div>
+        <p>
+          Overall, the conversation paints a complex picture of AI as a powerful
+          tool with the potential to both disrupt and improve society. It
+          emphasizes the need for thoughtful consideration of its implications
+          and the importance of proactive adaptation on the part of individuals,
+          businesses, and governments".
+        </p>
+      </div>
+      <br />
+      <p>
+        It is truly mind-blowing. You can upload any type of file and explore it
+        using this tool : <a href="https://notebooklm.google.com/">try it</a> !
+      </p>
+      <div class="ml-embedded" data-form="U62nie"></div>
+    </main>
 
-<div class="footer">Built by <span id="author">@youssefnim</span> on Github Pages</div>
-    
-    
-</body>
+    <div class="social-icons">
+      <a
+        href="https://www.facebook.com/sharer.php"
+        class="facebook"
+        target="_blank"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a
+        href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+        class="twitter"
+        data-via="YoussefNim"
+        target="_blank"
+      >
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?text="
+        class="whatsapp"
+        target="_blank"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/shareArticle?mini=true&url="
+        class="linkedin"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
 
-<script type="text/javascript" src="../myblog.js" > </script>
-<script type="text/javascript" src="../recommendations.js"></script>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="F2eMNQ7K"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
-<script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+    <div class="recommended_further_reading">
+      <strong> Read More </strong> : <span id="recommendation"> loading </span>
+    </div>
 
+    <div class="footer">
+      Built by <span id="author">@youssefnim</span> on Github Pages
+    </div>
+  </body>
+
+  <script type="text/javascript" src="../myblog.js"></script>
+  <script type="text/javascript" src="../recommendations.js"></script>
+  <div id="fb-root"></div>
+  <script
+    async
+    defer
+    crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+    nonce="F2eMNQ7K"
+  ></script>
+  <script
+    async
+    src="https://platform.twitter.com/widgets.js"
+    charset="utf-8"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/1cf483120b.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://platform.linkedin.com/in.js" type="text/javascript">
+    lang: en_US
+  </script>
 </html>
-
-
-
-
