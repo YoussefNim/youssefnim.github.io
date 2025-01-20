@@ -1,0 +1,426 @@
+[33mcommit 36490b0c3782eb3264a559dddd027e4037f90a4c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 22 15:32:29 2024 +0100
+
+    updated
+
+[33mcommit ec01f0dddd4dd78a985b41b18f8ba325c19f9d58[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 22 15:29:42 2024 +0100
+
+    updated index
+
+[33mcommit f3a5eb1324f1857a8d61908375d221ff564bca3c[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 16 13:13:01 2024 +0100
+
+    added carlota perez article
+
+[33mcommit 5d7655c849dc80550148b8520872bd78bdcac4fb[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 15 18:10:38 2024 +0100
+
+    smthg
+
+[33mcommit 67e21a439d1abc07e5bbaebdcf11ff3fa5136804[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 15 17:52:52 2024 +0100
+
+    added waving hand emoji to about me page
+
+[33mcommit 63c3d7da3605f78ce1e14d3947ec4fb7fb39dbba[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sat Oct 12 17:34:33 2024 +0100
+
+    fixed social icons in dark mode
+
+[33mcommit 4afe50f504734c0a71550f5a4bf00b6d781b1b73[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sat Oct 12 17:18:39 2024 +0100
+
+    changed social icons, used fontawesome, added Open Graph metadata
+
+[33mcommit d91d87683d3c2c8cecd77cad518f154bb931ce23[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 9 20:12:26 2024 +0100
+
+    several changes
+
+[33mcommit 3eed1bb0b6db52f5d7bd60358208b05e4594df38[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 9 19:09:37 2024 +0100
+
+    removed contact form since no server side, showed error
+
+[33mcommit a3a5787e1daf00a1938e93112a86c56147ec84aa[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 9 18:26:44 2024 +0100
+
+    fixed css for 'socials'
+
+[33mcommit ec1e74371af9b9e531d2e24f5c9baa13a02c2e5c[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 9 18:20:43 2024 +0100
+
+    lotta changes : rss feed, link colors, etc
+
+[33mcommit 478c05c1f48a9c7e3abc2fc63cb67254107e08d9[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 9 18:00:29 2024 +0100
+
+    lotta changes : rss feed, link colors, etc
+
+[33mcommit 8adec2dca83181e335805ad96f77906880fc7489[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Wed Oct 9 16:49:16 2024 +0100
+
+    img dimensions for mobile
+
+[33mcommit 83b9cd845d64a385a2f4ce5d0ed71c22892236d7[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 15:20:40 2024 +0100
+
+    recommend
+
+[33mcommit 0a159aa54dc9339accfc798b9ea134119ca3f09d[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 15:16:24 2024 +0100
+
+    recommend
+
+[33mcommit 9a401313ca2e3f577e596cab7fe78d6af19f9573[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 14:58:57 2024 +0100
+
+    fix keywords
+
+[33mcommit e7fd5793ac97dc80d94c64df65bd1496d29d1645[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 14:53:22 2024 +0100
+
+    added inflation post
+
+[33mcommit d4f87867add8c20b185953ed57e249867bf4c959[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:59:27 2024 +0100
+
+    url fix 3
+
+[33mcommit 9a71eaa6f9468dca6c73fbd4f75798bd671386f2[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:56:37 2024 +0100
+
+    url fix3
+
+[33mcommit c1ccee89da7eb90ea1cd256e99eab0a5953db506[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:54:41 2024 +0100
+
+    added mailerlite on all posts
+
+[33mcommit c4a139853a9330643a3de92744bdfe575fac25b9[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:51:15 2024 +0100
+
+    url fix3
+
+[33mcommit 26ce8748e1e97a15c0bc583cfea8e2819347c7b6[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:48:55 2024 +0100
+
+    url fix3
+
+[33mcommit 7f3c62924409a5eaefb1efbf3ec3186fe71877d2[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:45:37 2024 +0100
+
+    url fix 2
+
+[33mcommit 8e2d7952bce21a1097803e82962d43c2a17d7328[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:43:47 2024 +0100
+
+    url fix
+
+[33mcommit 53560e528ab77f3d9bb1b2ad1143c9d2e24ee49c[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Oct 8 13:41:51 2024 +0100
+
+    new post - fitness tips
+
+[33mcommit 7326d67a409e601334456592e250d28b6513e76f[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 22:27:10 2024 +0100
+
+     ff3
+
+[33mcommit 09f6be71386c308cd4b353bf8053d86a883726c7[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 22:20:45 2024 +0100
+
+     ff2
+
+[33mcommit 9bf907d4e50eb2b0f22736588a5b5962b0b51a55[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 22:15:15 2024 +0100
+
+     ff
+
+[33mcommit 352abb815ac64a97613c9c3ee6105a45aebf114b[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 21:31:05 2024 +0100
+
+    specific recommendations JS code and file
+
+[33mcommit 239adf5f0f776a29192030462114f511a7fd5073[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 21:17:17 2024 +0100
+
+    fix js again 3
+
+[33mcommit 03554c383ac27e5cab40c021de3a7da3b75ff771[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 21:13:34 2024 +0100
+
+    fix js again 2
+
+[33mcommit 21042068232b6e3db680d0c2908638f5e1d53549[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 21:10:10 2024 +0100
+
+    fix js again
+
+[33mcommit 9594f03f22bc2d883a307bb6634f1355fde4fe91[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 21:08:11 2024 +0100
+
+    fix js
+
+[33mcommit f66b234ea2fea616e7db57a401d77b6c020acf43[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 20:57:49 2024 +0100
+
+    ²
+
+[33mcommit c0261444e09942685f3c92f85bef2e52ca8b146c[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 20:54:47 2024 +0100
+
+    fixed recommendation code in JS
+
+[33mcommit 005a9f8f8f244ff9bcbc6b4ff9ba283976e29a9f[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 19:33:26 2024 +0100
+
+    add recommended posts
+
+[33mcommit 08392ec7162e321d63fdf3a72e6a11786725f195[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 19:27:00 2024 +0100
+
+    add recommended posts
+
+[33mcommit a5e54f1b883dc4208962bdf7c4f935e607e32595[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 19:07:28 2024 +0100
+
+    changed some URLs, improved the writing
+
+[33mcommit 383140a1d139c03ebf422396ba71643d397ff1e7[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 19:05:26 2024 +0100
+
+    changed some URLs, improved the writing
+
+[33mcommit 67b93c869cf522e5c54323161745427f14d9c763[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 19:03:04 2024 +0100
+
+    basic changes
+
+[33mcommit 6af9e02ae7b30f9e261b249ed6b7533603bbbc56[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 19:01:28 2024 +0100
+
+    basic changes
+
+[33mcommit 49b9f0465948703757dc4f8b7feda7ff8567956d[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 18:57:59 2024 +0100
+
+    changed some URLs, improved the writing
+
+[33mcommit 885285dbdbf62137a2ef8721627e9084260d7b3f[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 18:57:16 2024 +0100
+
+    changed some URLs, improved the writing
+
+[33mcommit 699716b860741b878d52732d48e1b73c5d10b966[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Oct 7 17:03:52 2024 +0100
+
+    test - added mailerlite form to index page
+
+[33mcommit b96bba638ccbecec3fa89829924355dbb00430df[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Thu Oct 3 18:58:12 2024 +0100
+
+    added /2024 to a href
+
+[33mcommit a4dec270db2fe71e969a261cda87dc01efc6cad2[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Thu Oct 3 18:56:31 2024 +0100
+
+    fixed URL for socials, added https://
+
+[33mcommit 275ab7cad188b2155ee017f176adc1fd7b705916[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Thu Oct 3 18:51:45 2024 +0100
+
+    added /2024 to a href
+
+[33mcommit af6ce4a9bd1b58d8257712ae6a0f92cec764b809[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Thu Oct 3 18:47:57 2024 +0100
+
+    'smethg'
+
+[33mcommit 654c641f9d766fd8fde202f58a67570d2f4937ac[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Thu Oct 3 18:45:35 2024 +0100
+
+    'smthg'
+
+[33mcommit 7e7657f9aea3d98cc6ef418b932f32846afdbc73[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Thu Oct 3 17:40:50 2024 +0100
+
+    added article about space AI podcast using notebookLM
+
+[33mcommit 85c17da189709e41934ca2e483e75c730a4aa31d[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Sep 17 19:00:33 2024 +0100
+
+    updated projects and 2024
+
+[33mcommit 456b1cb4d7d9833df1870ece7861eb5ec73ac2d1[m
+Merge: 83bca36 78ab004
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Apr 7 12:32:53 2024 +0000
+
+    Merge branch 'master' of https://github.com/YoussefNim/youssefnim.github.io
+    obligé coco
+
+[33mcommit 83bca363701d836aa5928be8f2ccb93643e0ef33[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Apr 7 12:32:23 2024 +0000
+
+    back from tanjah changes
+    
+    added scl share buttons, article template, removed grey bg for nav links
+
+[33mcommit 78ab004020e71ab9a2474a38e1b63dce91d2a181[m
+Author: YoussefNim <143848904+YoussefNim@users.noreply.github.com>
+Date:   Thu Apr 4 13:09:20 2024 +0200
+
+    Update README.md
+
+[33mcommit d055f28523febc149fe2a1071bbad36ca9026eec[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Apr 2 13:13:48 2024 +0000
+
+    full list of books
+
+[33mcommit 8009568ee6bbbd2b80a5dcd4e5c1652031529b68[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Tue Apr 2 01:39:29 2024 +0000
+
+    added reading page, books list
+
+[33mcommit bc1dac343a241e7bfe4a4af2d7bd2304f35d35d7[m
+Merge: c52f0da f3c4ead
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Apr 1 00:44:39 2024 +0000
+
+    Merge branch 'master' of https://github.com/YoussefNim/youssefnim.github.io
+    i don't know why...
+
+[33mcommit c52f0da666f4bd0987ff21bc8c69d21f21e0b35a[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Apr 1 00:42:26 2024 +0000
+
+    added reading page
+
+[33mcommit f3c4eadfe4aa2f89e2225a0c8a54ed282a284c96[m
+Author: YoussefNim <143848904+YoussefNim@users.noreply.github.com>
+Date:   Mon Mar 25 11:50:06 2024 +0000
+
+    Delete CNAME
+
+[33mcommit eb016159f5a6b208a1372635ff171d7996bcbae0[m
+Author: YoussefNim <143848904+YoussefNim@users.noreply.github.com>
+Date:   Mon Mar 25 11:49:35 2024 +0000
+
+    Create CNAME
+
+[33mcommit 996c48ed570e45215b19e1023bef7ab0f3ae2efd[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Mon Mar 25 11:43:55 2024 +0000
+
+    added projects page
+
+[33mcommit f39e16d25084c5f4c328fcbe1f471903cde91c6c[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 22:07:55 2024 +0000
+
+    added elements to the Head
+
+[33mcommit edcef6edd495891d072a49c4ee3abd330c7e616a[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 21:41:36 2024 +0000
+
+    another fix for input fields
+
+[33mcommit 2a7c86972bb96f54a23535b54cb5db2d52acd30c[m
+Merge: 063cbce c51885f
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 21:38:04 2024 +0000
+
+    Merge branch 'master' of https://github.com/YoussefNim/youssefnim.github.io
+
+[33mcommit 063cbce47c4b7ff259f89ed55a3fcbc9fcb4a5e7[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 21:33:07 2024 +0000
+
+    another fix for input fields
+
+[33mcommit c51885f0e7dba0178f2c343f73c8ff448db87a44[m
+Author: YoussefNim <143848904+YoussefNim@users.noreply.github.com>
+Date:   Sun Mar 24 21:31:30 2024 +0000
+
+    Create README.md
+
+[33mcommit a36e628441fea43ee59f2a830af93bac39f57495[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 21:30:29 2024 +0000
+
+    fixed contact form's input fields + added autocomplete
+
+[33mcommit 5cbd2c56c004e71727651e0b4765298907bd8521[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 21:16:14 2024 +0000
+
+    added same header for all pages
+
+[33mcommit cb0c43226b09923f58b42f17c82918cbf62f8f38[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 21:08:45 2024 +0000
+
+    fixed contact.html + dark mode across all pages
+
+[33mcommit 172edf1d93e08fce406d5ef566e3e2d0089c901e[m
+Author: YoussefNim <youssef.nimzilne@gmail.com>
+Date:   Sun Mar 24 18:20:45 2024 +0000
+
+    first version from vscode
