@@ -8,12 +8,38 @@
       name="googlebot"
       content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
     />
-    <meta name="description" content="small coding projects I made" />
+    <meta name="description" content="personal coding projects" />
     <meta
       name="keywords"
-      content="business, strategy, corporate finance, technology, data analysis, machine learning"
+      content="coding, apps, data analysis, machine learning, python, javascript, github"
     />
+    <!-- Open Graph meta tags needed for the social buttons to automatically grab some info before sharing -->
+    <meta
+      property="og:title"
+      content="notes about business, technology and data"
+    />
+    <meta
+      property="og:url"
+      content="youssefnim.github.io/coding-projects.html"
+    />
+    <meta
+      property="og:description"
+      content="notes about business, technology and data."
+    />
+    <meta
+      property="og:image"
+      content="youssefnim.github.io/youssefnim_img.ico"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Youssef Nim" />
+
     <link rel="stylesheet" href="myblog.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <link rel="icon" href="assets\youssefnim_img.ico" type="image/x-icon" />
     <!-- MailerLite Universal script -->
     <script>
@@ -111,7 +137,7 @@
           last 4 seconds of the countdown to ensure you are notified before time
           expires.
           <img
-            src="\assets\voice_activated_timer.png"
+            src="assets\voice_activated_timer.png"
             alt=""
             style="display: block; margin: auto"
             width="100"
@@ -130,7 +156,7 @@
           detected as bad, the application plays an alert sound to prompt them
           to correct their posture.
           <img
-            src="\assets\posture_monitor_icon.ico"
+            src="assets\posture_monitor_icon.ico"
             alt=""
             style="display: block; margin: auto"
             width="50"
@@ -149,7 +175,7 @@
           will predict the digit. (Did it to learn how to make a Flask backend
           interact with a basic frontend).
           <img
-            src="\assets\handwritten_digits_recognition.gif"
+            src="assets\handwritten_digits_recognition.gif"
             alt=""
             style="display: block; margin: auto"
             width="400"
@@ -159,41 +185,36 @@
       <div class="ml-embedded" data-form="U62nie"></div>
     </main>
 
-    <div class="share_buttons">
-      <!-- twitter share button -->
+    <div class="social-icons">
+      <a
+        href="https://www.facebook.com/sharer.php"
+        class="facebook"
+        target="_blank"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
       <a
         href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-        class="twitter-share-button"
-        data-size="large"
+        class="twitter"
         data-via="YoussefNim"
-        data-show-count="false"
-        >Tweet</a
-      >
-      <!-- facebook share button -->
-      <div
-        class="fb-share-button"
-        data-href="https://developers.facebook.com/docs/plugins/"
-        data-layout="button"
-        data-size="large"
-      >
-        <a
-          target="_blank"
-          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
-          class="fb-xfbml-parse-ignore"
-          >Share</a
-        >
-      </div>
-      <!-- whatsapp share button -->
-      <a
         target="_blank"
-        href="https://api.whatsapp.com/send?phone=&text="
-        class="whatsapp-button"
-        style="color: green; font-weight: bold"
       >
-        <i class="fab fa-whatsapp"></i> whatsapp</a
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?text="
+        class="whatsapp"
+        target="_blank"
       >
-      <!-- linkedin share button -->
-      <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/shareArticle?mini=true&url="
+        class="linkedin"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
     </div>
 
     <div class="footer">
@@ -201,25 +222,4 @@
     </div>
   </body>
   <script type="text/javascript" src="myblog.js"></script>
-
-  <div id="fb-root"></div>
-  <script
-    async
-    defer
-    crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
-    nonce="F2eMNQ7K"
-  ></script>
-  <script
-    async
-    src="https://platform.twitter.com/widgets.js"
-    charset="utf-8"
-  ></script>
-  <script
-    src="https://kit.fontawesome.com/1cf483120b.js"
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://platform.linkedin.com/in.js" type="text/javascript">
-    lang: en_US
-  </script>
 </html>

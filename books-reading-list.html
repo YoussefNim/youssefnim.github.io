@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1">
-    <meta name="description" content="books I read about business, entrepreneurship, technology, data analysis, machine learning">
+    <meta name="description" content="books about business, entrepreneurship, technology, data analysis, machine learning">
     <meta name="keywords" content="business, strategy, corporate finance, technology, data analysis, machine learning">
     <link rel="stylesheet" href="myblog.css">
+    <!-- Font Awesome CDN -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link rel="stylesheet" href="book_tags.css">
     <link rel="icon" href="assets\youssefnim_img.ico" type="image/x-icon">
     <title>Books - reading list</title>
@@ -23,7 +28,7 @@
     <div id="socials">
         <a href="https://www.twitter.com/youssefnim" target="_blank"> <img src="assets\ctwitter.svg" class="socials" alt="twtr link"></a>
         <a href="https://www.github.com/youssefnim" target="_blank"> <img src="assets\cgithub.svg" class="socials" alt="gthb link"></a>
-                <img id='toggle_mode_btn' src="assets\dark_light_mode.png" class="socials" alt="dark/light mode">
+        <img id='toggle_mode_btn' src="assets\dark_light_mode.png" class="socials" alt="dark/light mode">
         
     </div>
     <div><nav>
@@ -130,19 +135,38 @@
 </ul>
 </main>
 
-<div class="share_buttons">
-    <!-- twitter share button -->
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size=large data-via="YoussefNim" data-show-count="false">Tweet</a>
-    <!-- facebook share button -->
-    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large">
-    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-    <!-- whatsapp share button -->
-    <a target="_blank" href="https://api.whatsapp.com/send?phone=&text=" class="whatsapp-button" style="color: green; font-weight: bold;">
-    <i class="fab fa-whatsapp"></i> whatsapp</a>
-    <!-- linkedin share button -->
-    <script> var page_title = encodeURIComponent(document.title); </script>
-    <script type="IN/Share" data-url="https://www.linkedin.com"></script>
-    </div>
+<div class="social-icons">
+    <a
+      href="https://www.facebook.com/sharer.php"
+      class="facebook"
+      target="_blank"
+    >
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a
+      href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+      class="twitter"
+      data-via="YoussefNim"
+      target="_blank"
+    >
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a
+      href="https://api.whatsapp.com/send?text="
+      class="whatsapp"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a
+      href="https://www.linkedin.com/shareArticle?mini=true&url="
+      class="linkedin"
+      target="_blank"
+    >
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </div>
+
     
     <div class="footer">Built by <span id="author">@youssefnim</span> on Github Pages</div>
     
@@ -150,10 +174,5 @@
     </body>
     <script type="text/javascript" src="myblog.js" > </script>
     <script type="text/javascript" src="book_tags.js" > </script>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="F2eMNQ7K"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
-    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
     
 </html>
