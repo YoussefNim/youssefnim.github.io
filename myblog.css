@@ -24,7 +24,17 @@ main img {
   margin-bottom: 15px;
   width: 400px;
   height: auto;
-  max-width: 100%;
+  /* max-width: 100%; */
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: white;
+  background-color: blue;
 }
 
 .id_pic {
@@ -61,6 +71,11 @@ nav {
 nav a {
   font-size: 20px;
   padding: 5px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: blue;
 }
 
 .dark_mode {
@@ -105,7 +120,6 @@ main {
   left: 0;
   right: 0;
   margin-top: 5px;
-  color: blue;
 }
 
 .dark_mode .footer {
@@ -160,13 +174,20 @@ input[type="submit"] {
   margin-bottom: 10px;
 }
 
+.recommended_further_reading a:hover {
+  color: white;
+  background-color: blue;
+}
+
 .dark_mode .recommended_further_reading {
   /* need a space btween the 2 or else won't work */
   color: black;
 }
 
 .social-icons {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 5px; /* Small space between buttons */
   margin-top: 10px;
   margin-bottom: 20px;
@@ -176,12 +197,10 @@ input[type="submit"] {
   text-decoration: none;
   color: white;
   padding: 8px 10px; /* Smaller padding for the buttons */
-  display: inline-block;
   font-size: 14px; /* Smaller font size for the icons */
   border-radius: 4px;
   width: 50px;
   height: 20px;
-  text-align: center;
   font-family: Arial, sans-serif;
 }
 
