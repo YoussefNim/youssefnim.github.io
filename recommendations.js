@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (recommendations.length > 0) {
           console.log("recommendations", recommendations);
           // Set the font size for the recommendations
-          recommendationDiv.style.fontSize = "22px"; // Set the desired font size
+          recommendationDiv.style.fontSize = "20px"; // Set the desired font size
 
           recommendationDiv.innerHTML = recommendations
             .map((article) => {
