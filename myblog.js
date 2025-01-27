@@ -37,16 +37,22 @@ document.addEventListener("DOMContentLoaded", function () {
   // Select the progress bar element
   const progressBar = document.getElementById("progress_bar");
   const scrollableHeight =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
+    document.documentElement.scrollHeight - // Total height of the document, including content not currently visible on the screen.
+    document.documentElement.clientHeight; // Height of the visible part of the webpage (the viewport).
+  // Subtracting these gives the height of the part of the page that's scrollable.
 
   console.log(scrollableHeight);
 
   // Add a scroll event listener
   window.addEventListener("scroll", () => {
+    // calculate how far the user has scrolled vertically.
+    // Distance scrolled in the <body> element (for older browsers).
+    // Distance scrolled in the <html> element (modern browsers).
+    // The || operator ensures compatibility with both modern and older browsers.
     const scrollTop =
       document.body.scrollTop || document.documentElement.scrollTop;
     console.log(scrollTop);
+
     const scrollPercent = scrollTop / scrollableHeight;
     // Update the progress bar's width
     progressBar.style.width = `${scrollPercent * 100}%`;
