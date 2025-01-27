@@ -10,6 +10,17 @@ body {
   padding-right: 10px;
 }
 
+/* Progress Bar */
+#progress_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px; /* Height of the progress bar */
+  width: 0%; /* Starts at 0 */
+  background-color: blue; /* Green color */
+  z-index: 1000; /* Ensures it stays on top */
+}
+
 /* this only applies to large screens */
 @media only screen and (min-width: 768px) {
   body {
